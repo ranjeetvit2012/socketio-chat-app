@@ -43,7 +43,7 @@ class Server{
         this.app.use(express.json());
      }
      setDatabaseConection(){
-        const urlDb = "mongodb+srv://rmahto:Ranjeet123456@cluster0.juqwott.mongodb.net/school?retryWrites=true&w=majority";
+        const urlDb = "";
       mongoose.connect(urlDb).then(() => {
         console.log("mongoose connct");
       });
